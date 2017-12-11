@@ -1,0 +1,391 @@
+/*Global*/
+
+p {
+	font-family: "Open+Sans";
+	text-align: left;
+	font-weight: 300;
+}
+
+h3 {
+	font-family: "Roboto+Slab";
+	font-weight: 600;
+}
+
+
+li {
+	text-align: left;
+}
+.flex-container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	font-weight: bold;
+	text-align: center;
+}
+.flex-container>* {
+	padding: 8px;
+	flex: 1 100%;
+}
+.main {
+	text-align: left;
+	background: white;
+}
+.header {
+	background: coral;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: solid 0.5px black;
+}
+.footer {
+	background: #e3e3e3;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	margin-top: -16px;
+	border-top: solid 0.5px black;
+}
+.aside1 {
+	background: white;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.main2 {
+	text-align: left;
+	background: white;
+	border-left: solid 0.5px black;
+	border-right: solid 0.5px black
+}
+.aside2 {
+	background: white;
+	margin: 20px;
+}
+.aside3 {
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	margin-bottom: border: solid 2px black;
+}
+.aside5 {
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	margin: 10px
+}
+.aside6 {
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	margin: 10px
+}
+.aside7 {
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	padding-right: 20px;
+	border-left: solid 0.5px black;
+	border-right: solid 0.5px black;
+	margin: 10px
+}
+.main4 {
+	background: white;
+	margin: 10px
+}
+.main3 {
+	background: white;
+	border-left: solid 0.5px black;
+	border-right: solid 0.5px black;
+}
+.aside {
+	flex: 1 1px;
+}
+.main {
+	flex: 4 0px;
+}
+.aside1 {
+	order: 1;
+}
+.main {
+	order: 2;
+}
+.footer {
+	order: 3;
+}
+.aside3 {
+	flex: 2 1px;
+}
+.aside2 {
+	flex: 1 1px;
+}
+.main2 {
+	flex: 3 1px;
+}
+.aside3 {
+	order: 1;
+}
+.main2 {
+	order: 2;
+}
+.aside2 {
+	order: 2;
+}
+.footer {
+	order: 3;
+}
+.aside3 {
+	flex: 1 1px;
+}
+.main3 {
+	flex: 3 1px;
+}
+.aside3 {
+	order: 1;
+}
+.main3 {
+	order: 2;
+}
+.aside2 {
+	order: 2;
+}
+.footer {
+	order: 3;
+}
+.aside5 {
+	flex: 1 1px;
+}
+.main4 {
+	flex: 1 0px;
+}
+.aside5 {
+	order: 1;
+}
+.main3 {
+	order: 2;
+}
+.aside6 {
+	order: 2;
+}
+.footer {
+	order: 3;
+}
+#mainimg {
+	width: 100%;
+	height: 500px;
+	border: solid 2px black;
+	margin-top: 10px;
+}
+#logo {
+	width: 300px
+}
+.button {
+	background-color: coral;
+	color: white;
+	display: inline-block;
+	line-height: 2.6em;
+	font-weight: 600;
+	font-size: 1em;
+}
+.button:hover {
+	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+}
+#video1 {
+	width: 100%;
+	height: 95%;
+	margin-top: 5px;
+}
+#video2 {
+	width: 100%;
+	height: 95%;
+	margin-top: 5px;
+}
+.musik {
+	width: 300px;
+	height: 80px;
+	float: left;
+}
+.footerbillede {
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+	margin-top: 1.2%;
+}
+.forsidebillede1 {
+	width: 100%;
+	height: auto;
+	margin: 3px;
+}
+.forsidebillede12 {
+	width: 100%;
+	height: auto;
+	margin: 3px;
+	border: solid 2px
+}
+.forsidebillede2 {
+	width: 100%;
+	height: 30%;
+	margin-bottom: 5%;
+	border: solid 2px black;
+}
+.forsidebillede3 {
+	width: 100%;
+	height: 30p;
+	margin-bottom: 5%;
+	border: solid 2px;
+}
+#footertekst {
+	font-weight: 400
+}
+.overskrift {
+	text-align: left;
+}
+#goderåd {
+	line-height: 1;
+	font-weight: 300;
+	font-family: "Open+Sans";
+	text-align: left
+}
+#femskarpe {
+	line-height: 1.5;
+	font-weight: 300;
+	font-family: "Open+Sans";
+	text-align: left
+}
+
+/* billede effekt på mine artikelbilleder på forsiden - 
+http://littlesnippets.net/snip1576/  */
+.snip1576 {
+	background-color: #fff;
+	color: #444;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	margin: 8px;
+	max-width: 312px;
+	min-width: 250px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.snip1576 * {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.45s ease;
+	transition: all 0.45s ease;
+}
+.snip1576:after {
+	background-color: coral;
+	height: 150%;
+	bottom: -150%;
+	content: '';
+	left: 0;
+	right: 0%;
+	position: absolute;
+	-webkit-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+}
+.snip1576 img {
+	vertical-align: top;
+	max-width: 100%;
+	backface-visibility: hidden;
+}
+.snip1576 figcaption {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	align-items: center;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	line-height: 1.1em;
+	opacity: 0;
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+.snip1576 h3 {
+	font-size: 1em;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 0;
+	text-transform: uppercase;
+}
+.snip1576 h3 span {
+	display: block;
+	font-weight: 700;
+}
+.snip1576 a {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+.snip1576:hover>img,
+.snip1576.hover>img {
+	opacity: 0.5;
+}
+.snip1576:hover:after,
+.snip1576.hover:after {
+	bottom: 100%;
+}
+.snip1576:hover figcaption,
+.snip1576.hover figcaption {
+	opacity: 1;
+	-webkit-transition-delay: 0.4s;
+	transition-delay: 0.4s;
+}
+
+/*mobil*/
+@media(max-width:767px) {
+	.header {
+		display:block;
+    
+	}
+	.button { width:100% ;
+     
+   
+    
+	}
+   
+	#video1, #video2{ width: 100%;
+		height: 400px;
+	}
+	
+	.aside {
+		flex: 1 100%;
+	}
+	
+	.main {
+		flex: 4 0px;
+	}
+	
+	.aside1 {
+		order: 3;
+	}
+	
+	.main {
+		order: 1;
+	}
+	
+	.footer {
+		order: 5;
+	}
+}
+
+/*tablet*/
+@media(min-width:768px)and (max-width:1023px) {}
+
+}
+
+/*desktop*/
+@media(min-width:1024px) {}
